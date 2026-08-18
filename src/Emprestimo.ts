@@ -1,12 +1,11 @@
-import { livro } from './livro';
+import { Livro } from './livro';
 import { usuario } from './usuario';
-
 export class Emprestimo {
-    livro: livro;
-    usuario: usuario;
+    livro: Livro; 
+    usuario: usuario; 
     dataEmprestimo: Date;
 
-    constructor(livro: livro, usuario: usuario) {
+    constructor(livro: Livro, usuario: usuario) {
         this.livro = livro;
         this.usuario = usuario;
         this.dataEmprestimo = new Date();
