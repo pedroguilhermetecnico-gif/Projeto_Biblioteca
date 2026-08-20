@@ -1,5 +1,5 @@
-import { Livro } from './livro';
-import { usuario } from './usuario';
+import { Livro } from './Livro';
+import { usuario } from './Usuario';
 export class Emprestimo {
     livro: Livro; 
     usuario: usuario; 
